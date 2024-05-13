@@ -1,0 +1,18 @@
+# .github/workflows/build.yml
+name: "Github Starter"
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "app/"
+jobs:
+  building:
+    name: "Building Application"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Print Hello World"
+        run: |
+          python index.py
+        working-directory: ${{ github.workspace }}/app
