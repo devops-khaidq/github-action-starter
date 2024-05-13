@@ -12,6 +12,7 @@ jobs:
     name: "Building Application"
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - name: "Print Hello World"
         run: |
           pwd
