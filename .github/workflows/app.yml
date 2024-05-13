@@ -14,5 +14,4 @@ jobs:
     steps:
       - name: "Print Hello World"
         run: |
-          python index.py
-        working-directory: app
+          pwd
