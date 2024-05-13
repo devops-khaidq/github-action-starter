@@ -17,3 +17,5 @@ jobs:
         run: |
           pwd
           ls -al
+          python index.py
+        working-directory: app/
