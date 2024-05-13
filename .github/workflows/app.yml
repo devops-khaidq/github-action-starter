@@ -15,4 +15,4 @@ jobs:
       - name: "Print Hello World"
         run: |
           python index.py
-        working-directory: ${{ github.workspace }}/app
+        working-directory: app
